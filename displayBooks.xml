@@ -1,0 +1,95 @@
+<?xml version ="1.0" encoding = "UTF-8"?>
+<bookList>
+	<books>
+		<bookImg>fantasy_1.jpg</bookImg>
+		<genre>Fantasy</genre>
+		<name>Harry Potter</name>
+		<author>J.K. Rowling</author>
+		<description>Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels chronicle the life of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.</description>
+		<price>115.99</price>
+		
+	</books>
+	<books>
+		<bookImg>fantasy_2.jpg</bookImg>
+		<genre>Fantasy</genre>
+		<name>A Dance with Dragons</name>
+		<author>George R.R. Martin</author>
+		<description>A Dance With Dragons is the fifth novel in George R. R. Martin’s ongoing fantasy series, A Song of Ice and Fire. Much of the novel’s action coincides with events from the previous novel, A Feast for Crows. However, A Dance With Dragons focuses on different characters, and while the previous novel focused on events around King’s Landing, the capital of Westeros, much of A Dance With Dragons takes place in the far north of Westeros and in the lands across the Narrow Sea.</description>
+		<price>24.99</price>
+		
+	</books>
+	<books>
+		<bookImg>fantasy_3.jpg</bookImg>
+		<genre>Fantasy</genre>
+		<name>Mistborn</name>
+		<author>Brandon Sanderson</author>
+		<description>Mistborn: The Final Empire, also known simply as Mistborn or The Final Empire, is a fantasy novel written by American author Brandon Sanderson.The Final Empire is set in a roughly medieval dystopian future on the world Scadrial, where ash constantly falls from the sky, all plants are brown, and supernatural mists cloud every night.</description>
+		<price>44.99</price>
+		
+	</books>
+	<books>
+		<bookImg>fantasy_4.jpg</bookImg>
+		<genre>Fantasy</genre>
+		<name>The Lord of the Rings</name>
+		<author>J. R. R. Tolkien</author>
+		<description>The future of civilization rests in the fate of the One Ring, which has been lost for centuries. Powerful forces are unrelenting in their search for it. But fate has placed it in the hands of a young Hobbit named Frodo Baggins (Elijah Wood), who inherits the Ring and steps into legend. A daunting task lies ahead for Frodo when he becomes the Ringbearer - to destroy the One Ring in the fires of Mount Doom where it was forged.</description>
+		<price>29.99</price>
+		
+	</books>
+	<books>
+		<bookImg>mystery_1.jpg</bookImg>
+		<genre>Mystery</genre>
+		<name>And Then There Were None</name>
+		<author>Agatha Christie</author>
+		<description>In the novel, a group of people are lured into coming to an island under different pretexts, e.g., offers of employment, to enjoy a late summer holiday, or to meet old friends. All have been complicit in the deaths of other human beings, but either escaped justice or committed an act that was not subject to legal sanction.A confession, in the form of a postscript to the novel, unveils how the killings took place and who was responsible.</description>
+		<price>35</price>
+		
+	</books>
+	<books>
+		<bookImg>mystery_2.jpg</bookImg>
+		<genre>Mystery</genre>
+		<name>The Da Vinci Code</name>
+		<author>Dan Brown</author>
+		<description>A murder in Paris' Louvre Museum and cryptic clues in some of Leonardo da Vinci's most famous paintings lead to the discovery of a religious mystery. For 2,000 years a secret society closely guards information that -- should it come to light -- could rock the very foundations of Christianity</description>
+		<price>42</price>
+		
+	</books>
+	<books>
+		<bookImg>mystery_3.jpg</bookImg>
+		<genre>Mystery</genre>
+		<name>Two Kinds of Truth</name>
+		<author>Michael Connelly</author>
+		<description>Harry Bosch is back as a volunteer working cold cases for the San Fernando Police Department and is called out to a local drug store where a young pharmacist has been murdered. Bosch and the town's 3-person detective squad sift through the clues, which lead into the dangerous, big business world of pill mills and prescription drug abuse.The two unrelated cases wind around each other like strands of barbed wire. Along the way Bosch discovers that there are two kinds of truth: the kind that sets you free and the kind that leaves you buried in darkness.
+		</description>
+		<price>15</price>
+		
+	</books>
+		<books>
+		<bookImg>comic_1.jpg</bookImg>
+		<genre>Comic</genre>
+		<name>Owly</name>
+		<author>Andy Runton</author>
+		<description>The series, which is largely without standard text dialogue making it a pantomime comic, is about the adventures of a gentle owl named Owly who resolves to do good and make friends in his world with the help of his good companions, the clever worm, Wormy, and Scampy, the gluttonous but good hearted chipmunk. While he faces obstacles in the pursuit of that goal, his faith in the goodness in the world is never disappointed.</description>
+		<price>19.99</price>
+		
+	</books>
+	
+	<books>
+		<bookImg>comic_2.jpg</bookImg>
+		<genre>Comic</genre>
+		<name>Baby Mouse: Queen of the World</name>
+		<author>Jennifer L. Holm and Matthew Holm</author>
+		<description>It's the same thing every day for Babymouse. Where is the glamour? The excitement? The adventure? Nothing ever changes, until . . . Babymouse hears about Felicia Furrypaws's exclusive slumber party. Will Babymouse get invited? Will her best friend, Wilson, forgive her if she misses their monster movie marathon? Find out in Babymouse: " Queen of the World," a graphic novel with attitude!</description>
+		<price>22.99</price>
+		
+	</books>
+	<books>
+		<bookImg>comic_3.jpg</bookImg>
+		<genre>Comic</genre>
+		<name>El Deafo</name>
+		<author>Cece Bell</author>
+		<description>The book depicts the childhood of Cece Bell, who required the assistance of a Phonic Ear hearing aid while she was growing up to be the person who she is now.While the hearing aid enables her to hear the world around her, it also distances her from some children her own age because she is seen as "different". This causes both frustration and depression in Cece, as she is desperate to find a true friend but frequently feels that she has to accept poor treatment from others being afraid of losing what few friends she has. She deals with these feelings by treating her hearing aid as a superpower, as it gives her the ability to hear everything. For example, she hears private teacher conversations, as her teachers wear a tiny microphone that transmits sound to Cece's hearing aid; and not every teacher remembers to turn it off when they leave the classroom. She adopts the secret moniker "El Deafo".
+		</description>
+		<price>18</price>
+	</books>
+</bookList>

@@ -1,0 +1,276 @@
+body {
+		/*setting a background image*/
+		background: url("bookCart.jpg");/*setting a background image*/
+		background-repeat: repeat-y; /*background repeats vertically*/
+		background-size: 100%;
+		margin-top: 25px;/*setting margin*/
+		margin-bottom: 25px;
+		margin-left: 25px;
+		margin-right: 25px;
+		vertical-align: bottom;
+		text-align: bottom;	
+		
+		
+}
+
+nav {/*styling for navigation bar*/
+		font-weight: bold;
+		color: white;
+		border: 15px Green;
+		text-align: center;
+		background-color: black;
+		font-style: Italic;
+}	
+
+nav ul li {/*styling for elements under nav*/
+		display: inline-block; 
+		color: white;
+		text-align: center;
+		padding: 14px 16px;											
+		text-decoration: none;
+}
+
+nav ul li:hover {
+		background-color: none;
+}
+
+a:hover {/*styling for elements to highlight when we hover on it*/
+		-webkit-stroke-width: 5.3px;
+		-webkit-stroke-color: #FFFFFF;
+		-webkit-fill-color: #FFFFFF;
+		text-shadow: 1px 0px 20px yellow;
+		font-size:20px;
+}
+
+a {		/*styling for anchor elements */
+		font-size:16px;
+		color: blue;
+		transition: all 0.3s ease-in;
+		text-decoration:none;
+}
+
+#mainQuotes {
+		
+		position:fixed;
+		margin-top: 550 px;/*setting margin*/
+		margin-left: 350px; 
+		padding-top: 100px;
+		background-image:none;
+		font-style: italic;
+		color: purple;
+		font-size:18px;
+}
+
+#topImg {
+	
+	background: url("topImage.jpg");
+	
+}
+
+.imgDisplay{
+		
+		background-size: 100%;
+		height: 100%;
+		background-repeat: repeat-y;
+		max-width: 100%;
+		height: auto;
+		overflow: hidden;
+		
+}
+
+#images{
+	
+	background-size: 100%;
+	background-image:none;
+	background-repeat: repeat-y; /*background repeats vertically*/
+max-width: 100%;
+		height: auto;
+		overflow: hidden;
+}
+
+
+.fantasy{
+	float: left;
+	padding: 0 20px 20px 0;
+	border-radius: 35px 50px 50px 50px;
+	height: 250px;
+	
+	
+}
+
+#fantasyPara{
+	font-size: 22px;
+	font-style: italic;
+}
+
+p.fantasyHeading {
+	color: green;
+	padding-left: 600px;
+	font-size: 35px;
+	font-family: Oldtown, fantasy;
+}
+
+.mystery{
+	float: right;
+	padding: 0 20px 20px 0;
+	border-radius: 35px 50px 50px 50px;
+	height: 250px;
+}
+
+#mysteryPara{
+	font-size: 22px;
+	font-style: italic;
+}
+
+p.horrorHeading{
+	font-family: Oldtown, fantasy;
+	font-size: 35px;
+	color: brown;
+	padding-left: 600px;
+	
+}
+
+p.comicHeading{
+	color: purple;
+	padding-left: 600px;
+	font-size: 35px;
+	font-family: Oldtown, fantasy;
+}
+
+#comicPara{
+	font-size: 22px;
+	font-style: italic;
+}
+
+.comic{
+	
+	float: left;
+	padding: 0 20px 20px 0;
+	border-radius: 35px 50px 50px 50px;
+	height: 250px;
+}
+
+.cartImage{
+	height: 65px;
+    width: 65px;
+	float: right;
+}
+
+
+.main {
+    width: 100%;
+}
+
+
+.pageContent {
+    width: 78%;
+    padding: 10px;
+    float: right;
+    margin: 10px 10px 10px 5px;
+    height: 100%;
+    text-align: left;
+    border-width: 0px 0px 0px 2px;
+  
+   
+}
+
+#aboutBook{
+	float:left;	
+	width: 400px; 	
+	overflow: hidden;
+	padding: 10px;
+    margin: 10px 10px 10px 10px;
+	display: inline-block;
+}
+
+#myCart{
+	text-align: left; 
+}
+
+.button {
+	
+				background-color: white;
+				color: white;
+				border: black; 
+				border-radius: 4px;
+				background-color: black;
+				font-family:"Comic Sans MS", cursive, sans-serif;
+	
+	
+}
+
+
+
+
+
+
+
+
+#groupNames{
+	
+	padding-top:50px;
+	text-align: center;
+	color: purple;
+	
+}
+
+.bookStore{
+	float: left;
+	padding: 0 20px 20px 0;
+	border-radius: 35px 50px 50px 50px;
+	height: 250px;
+	color: purple;
+	
+	
+}
+
+#bookStorePara{
+	font-size: 24px;
+	font-style: italic;
+	
+}
+
+th,td,tr,table {
+    vertical-align: top;
+	width: 150px;
+}
+
+.navigation {
+    width: 32%;
+    float: left;
+    padding-left: 10px;
+    margin: 10px 5px 10px 10px;
+    height: 100%;
+}
+
+#table{
+	float:center;
+	
+}
+
+#taxDetails{
+	
+	text-align:center;
+}
+
+.navigation1 {
+    width: 30%;
+    float: right;
+    padding-left: 100px;
+   margin-top: 50px;
+   color:maroon;
+    height: 100%;
+}
+
+.searchClass{
+	
+	font-size:20px;
+	
+	
+}
+
+.searchClass:hover{
+	
+	
+	font-size:25px;
+}

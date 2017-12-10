@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!----created by Group:5---->
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Search Page</title>
+		<script src= "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="book.css"/>
+		<script type= "text/javascript" src="bookName.js"></script>
+		<style>
+			body {
+			background: url("displayBooks.jpg");/*setting a background image*/
+			background-repeat: repeat-y; /*background repeats vertically*/
+			background-size: 100%;	
+		}
+		</style>
+	</head>
+	<body>
+		<div id = "topImg">
+			<h1 style="text-align:center; font-family:Caflisch Script Pro, cursive;font-size:40px">PICK A BOOK</h1>
+			<nav> 
+				<ul>
+					<li><a href="homePage.html">Home</a></li>
+					<li><a href="books.html">Books</a></li>
+					<li><a href="Search.html">Search</a></li>
+					<li><a href="aboutUs.html">About Us</a></li>
+				</ul>
+			</nav>
+		</div>	
+		<div>
+			<div id = "searchPage"> 
+				<a href="searchbyGenere.html"><b>Search by Genre</b></a></br>
+				<a href="bookName.html"><b>Search by Book Name</b></a></br>
+				<a href="index.html"><b>Search by Alphabet</b></a></br>
+			</div>		
+            <div class="pageContent">  
+				<div class="cart">
+					<a href="bookCart.html">
+						<img class="cartImage" title="Click here to view cart" alt="cart" src="cart.jpg" />
+					</a>
+				</div>
+				<h1>Search book by Book Name</h1>
+				<select id="bookDetails"></select><br/><br/>	
+				<div id="orderSection">					
+					<img id="imageBook" width="250" height="250"><br/>
+					<label id="detailsLabel" style = "margin-left:20px;"></label><br/>
+					<p id="price"></p>
+					<input type="button" class="button" id="orderNowButton" value="Order Now">					
+				</div>
+			</div>
+	</body>
+</html>

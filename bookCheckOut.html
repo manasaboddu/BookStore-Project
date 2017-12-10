@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<!----created by Group:5---->
+	<head>
+		<meta charset = "utf-8">
+		<link href="book.css" rel="stylesheet" type="text/css" />
+		<title>Checkout</title>
+		<script type="text/javascript" src="bookCheckOut.js"></script>
+		<style>
+			body {
+			background: url("bookCart.jpg");/*setting a background image*/
+			background-repeat: repeat-y; /*background repeats vertically*/
+			background-size: 100%;
+			margin-top: 25px;/*setting margin*/
+			margin-bottom: 25px;
+			margin-left: 25px;
+			margin-right: 25px;
+			vertical-align: bottom;
+			text-align: bottom;
+			}
+			
+			#taxDetails{
+			margin-left: 450px;
+			position:fixed;
+			
+			}
+		</style>
+	</head>
+	<body>
+		<div id = "topImg">
+			<h1 style="text-align:center; font-family:Caflisch Script Pro, cursive;font-size:40px">PICK A BOOK</h1>
+			<nav> 
+				<ul>
+					<li><a href="homePage.html">Home</a></li>
+					<li><a href="books.html">Books</a></li>
+					<li><a href="Search.html">Search</a></li>
+					<li><a href="aboutUs.html">About Us</a></li>		
+				</ul>
+			</nav>
+		</div>	
+		<div class="navigation">
+				<p id="cartDetails"></p>
+        </div>
+		<div class="navigation1">
+			<p id = "discountPara"> 
+			<b>The More You buy!! The More You Save!!
+			</br> Buy above $25: Get FLAT 5% OFF</br>
+			Buy above $50: Get FLAT 10% OFF</br>
+			Buy above $75: Get FLAT 15% OFF</br>
+			Buy $100 and above: Get FLAT 25% OFF</br>
+			Bag them before the OFFER ends</br>
+			HURRY UP!!!</b>
+			</p>
+		</div>
+		<div>
+			&nbsp; &nbsp; &nbsp; &nbsp; 
+			<h2>Enter your Details</h2> 
+			<div id = "table">
+				<table>			
+					<tr>
+						<th>Name</th>
+						<td><input type="text" id ="nameTextBox" placeholder="Name" ></td>
+					</tr>
+					<tr>
+						<th> Email-ID</th>
+						<td><input type="text" id ="emailTextBox" placeholder="Email"></td>
+					</tr>
+					<tr>
+						<th>Contact Number</th>
+						<td><input type="text" id ="phoneTextBox" placeholder="Phone" maxlength = "10"></td>
+					</tr>
+					<tr>
+						<td><input type="button" class="button" id="confirmButton" value="Confirm order"></td>
+					</tr>
+				</table>
+			</div>
+		</div>		
+		<div id="taxDetails"></div>
+	</body>
+</html>

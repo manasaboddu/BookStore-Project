@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!----created by Group:5---->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Search Page</title>
+		<link rel="stylesheet" type="text/css" href="book.css"/>
+		<script type= "text/javascript" src="searchbyGenere.js"></script>
+		<style>
+			body {
+			background: url("displayBooks.jpg");/*setting a background image*/
+			background-repeat: repeat-y; /*background repeats vertically*/
+			background-size: 100%;
+			}
+		</style>	
+	</head>
+	<body>
+		<div id = "topImg">
+			<h1 style="text-align:center; font-family:Caflisch Script Pro, cursive;font-size:40px">PICK A BOOK</h1>
+			<nav> 
+				<ul>
+					<li><a href="homePage.html">Home</a></li>
+					<li><a href="books.html">Books</a></li>
+					<li><a href="search.html">Search</a></li>
+					<li><a href="aboutUs.html">About Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id = "searchPage"> 
+			<a href="searchbyGenere.html"><b>Search by Genre</b></a></br>
+			<a href="bookName.html"><b>Search by Book Name</b></a></br>
+			<a href="index.html"><b>Search by Alphabet</b></a></br>
+		</div>
+		<div class="pageContent">  
+			<div class="cart">
+				<a href="bookCart.html">
+					<img class="cartImage" title="Click here to view cart" alt="cart" src="cart.jpg" />
+				</a>
+			</div>
+			<h1>Search book by Genre</h1>
+			<p><input type = "radio" id = "Fantasy" name = "books"/>Fantasy</p>
+			<p><input type = "radio" id = "Mystery" name = "books"/>Mystery</p>
+			<p><input type = "radio" id = "Comic" name = "books"/>Comics</p>
+			<label id = "bookList"></label>	<br/><br/>			
+        </div>
+	</body>
+</html>

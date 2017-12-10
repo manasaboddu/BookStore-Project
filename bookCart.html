@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<!----created by Group:5---->
+	<head>
+		<link href="book.css" rel="stylesheet" type="text/css" />
+		<meta charset= "utf-8">
+		<title>Cart</title>
+		<script type="text/javascript" src="bookCart.js"></script>
+		<style>
+			body {
+			background: url("bookCart.jpg");/*setting a background image*/
+			background-repeat: repeat-y; /*background repeats vertically*/
+			background-size: 100%;
+			margin-top: 25px;/*setting margin*/
+			margin-bottom: 25px;
+			margin-left: 25px;
+			margin-right: 25px;
+			vertical-align: bottom;
+			text-align: bottom;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div id = "topImg">
+				<h1 style="text-align:center; font-family:Caflisch Script Pro, cursive;font-size:40px">PICK A BOOK</h1>
+				<nav> 
+					<ul>
+						<li><a href="homePage.html">Home</a></li>
+						<li><a href="books.html">Books</a></li>
+						<li><a href="Search.html">Search</a></li>
+						<li><a href="aboutUs.html">About Us</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="pageContent">
+				<div id="myCart"></div>
+				<input id="continueButton" class="button" onclick="location.href = 'displayBooks.html';" type="button" value="Continue Shopping" />
+				<input id="checkoutButton" class="button" onclick="location.href = 'bookCheckOut.html';" type="button" value="Checkout" />
+				<div id = "cartBackground"></div>	
+			</div>
+        </div>
+	</body>
+</html>

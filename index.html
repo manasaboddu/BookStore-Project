@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!----created by Group:5---->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Search Page</title>
+		<link rel="stylesheet" type="text/css" href="book.css"/>
+		<script type= "text/javascript" src="index.js"></script>
+		<style>
+			body {
+			background: url("displayBooks.jpg");/*setting a background image*/
+			background-repeat: repeat-y; /*background repeats vertically*/
+			background-size: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id = "topImg">
+			<h1 style="text-align:center; font-family:Caflisch Script Pro, cursive;font-size:40px">PICK A BOOK</h1>
+			<nav> 
+				<ul>
+					<li><a href="homePage.html">Home</a></li>
+					<li><a href="books.html">Books</a></li>
+					<li><a href="Search.html">Search</a></li>
+					<li><a href="aboutUs.html">About Us</a></li>
+				</ul>
+			</nav>
+		</div>	
+		<div id = "searchPage"> 
+			<a href="searchbyGenere.html"><b>Search by Genre</b></a></br>
+			<a href="bookName.html"><b>Search by Book Name</b></a></br>
+			<a href="index.html"><b>Search by Alphabet</b></a></br>
+		</div>
+        <div class="pageContent">  
+			<div class="cart">
+				<a href="bookCart.html">
+					<img class="cartImage" title="Click here to view cart" alt="cart" src="cart.jpg" />
+				</a>
+			</div>
+			<h1>Search in Alphabetical order</h1>
+			<div id = "index">
+				<p>
+					<button id="A" onclick="FunA(this.id)">A</button>
+					<button id="B" onclick="FunA(this.id)">B</button>
+					<button id="C" onclick="FunA(this.id)">C</button>
+					<button id="D" onclick="FunA(this.id)">D</button>
+					<button id="E" onclick="FunA(this.id)">E</button>
+					<button id="F" onclick="FunA(this.id)">F</button>
+					<button id="G" onclick="FunA(this.id)">G</button>
+					<button id="H" onclick="FunA(this.id)">H</button>
+					<button id="I" onclick="FunA(this.id)">I</button>
+					<button id="J" onclick="FunA(this.id)">J</button>
+					<button id="K" onclick="FunA(this.id)">K</button>
+					<button id="L" onclick="FunA(this.id)">L</button>
+					<button id="M" onclick="FunA(this.id)">M</button>
+					<button id="N" onclick="FunA(this.id)">N</button>
+					<button id="O" onclick="FunA(this.id)">O</button>
+					<button id="P" onclick="FunA(this.id)">P</button>
+					<button id="Q" onclick="FunA(this.id)">Q</button>
+					<button id="R" onclick="FunA(this.id)">R</button>
+					<button id="S" onclick="FunA(this.id)">S</button>
+					<button id="T" onclick="FunA(this.id)">T</button>
+					<button id="U" onclick="FunA(this.id)">U</button>
+					<button id="V" onclick="FunA(this.id)">V</button>
+					<button id="W" onclick="FunA(this.id)">W</button>
+					<button id="X" onclick="FunA(this.id)">X</button>
+					<button id="Y" onclick="FunA(this.id)">Y</button>
+					<button id="Z" onclick="FunA(this.id)">Z</button>
+				</p>
+			</div>
+			<div id = "bookList"></div>
+			<p id = "selectPara"></p><br/><br/>	
+		</div>
+	</body>
+</html>
